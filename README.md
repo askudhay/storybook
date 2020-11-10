@@ -1,27 +1,35 @@
-# Storybook
+# Let's create an Angular Story book!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+UIs are built from the “bottom up” starting with basic components then progressively combined to assemble screens.
 
-## Development server
+We keep one step at a time by following this Component driven approach. Storybook is a tool for UI development to showcase components that are being developed.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+It makes development faster and easier by isolating components. This allows you to work on one component at a time. You can develop entire UIs without needing to start up a complex dev stack, force certain data into your database, or navigate around your application.
 
-## Code scaffolding
+Basically work in chunks! 😊
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+I'll show you how to setup Storybook in Angular, and configure couple useful addons that are shipped with Storybook to create a Style guide (Minimal Design systems). Interesting huh? RSVP now to reserve your spot.
 
-## Build
+## Slides
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Check out [Deck](https://slides.com/askudhay/lets-create-an-angular-storybook) to learn more about this talk.
 
-## Running unit tests
+## Run Storybook
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run storybook` to run Storybook in your local machine.
 
-## Running end-to-end tests
+## Build Storybook
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm run build-storybook` to build static site for Storybook.
+
+## Publish to GitHub Pages
+
+Run `deploy-storybook` to publish Storybook static site to GitHub pages.
+
+## Connect with us
+
+Buzz me on [Twitter](https://twitter.com/AskUdhay) | Join our [Angular Hive](https://twitter.com/AngularHive) Meetup group.
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on this project, join our Discord [Channel](http://bit.ly/ng-hive-discord).
